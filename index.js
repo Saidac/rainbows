@@ -1,26 +1,12 @@
-var colors = require('colors/safe');
-console.log(colors.yellow('Who run the world?'));
-console.log(colors.rainbow('N3RD5!!!!!!!!'));
+var colors = require('colors');
 
-var holla = 'Come to Daddy!';
-
-
-
-
-function rawPower() {
-console.log(colors.white(holla));
-console.log(colors.red(holla));
-console.log(colors.green(holla));
-console.log(colors.yellow(holla));
+function rawPower(string) {
+console.log(colors.white(string));
+console.log(colors.red(string));
+console.log(colors.green(string));
+console.log(colors.yellow(string));
 }
 
-setInterval(rawPower, 500);
-
-
-
-
-
-
-
-
-
+for (var i = 2; i < process.argv.length; i++){
+setInterval(rawPower, 500, process.argv[i]);
+}
