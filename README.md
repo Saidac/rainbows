@@ -1,6 +1,6 @@
 # TO INSTALL
 
-run nom install
+run npm install
 
 
 ### RAINBOWS ###
@@ -25,4 +25,4 @@ in random colors.
 #  song-reader.js
 
 This programs expect a source file as an argument and then read that file <br>
-and print each line from that file in various colors. 
+and print each line from that file in various colors.
