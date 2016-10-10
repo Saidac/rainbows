@@ -18,6 +18,5 @@
   "homepage": "https://github.com/Saidac/rainbows#readme",
   "dependencies": {
     "chalk": "^1.1.3",
-    "colors": "^1.1.2"
   }
 }

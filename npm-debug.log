@@ -1,0 +1,67 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'rm',
+1 verbose cli   '-r',
+1 verbose cli   'colors' ]
+2 warn invalid config registry="colors"
+3 warn invalid config Must be a full url with 'http://'
+4 info using npm@3.10.3
+5 info using node@v6.7.0
+6 silly loadCurrentTree Starting
+7 silly install loadCurrentTree
+8 silly install readGlobalPackageData
+9 silly install normalizeTree
+10 silly loadCurrentTree Finishing
+11 silly loadIdealTree Starting
+12 silly install loadIdealTree
+13 silly cloneCurrentTree Starting
+14 silly install cloneCurrentTreeToIdealTree
+15 silly cloneCurrentTree Finishing
+16 silly loadShrinkwrap Starting
+17 silly install loadShrinkwrap
+18 silly loadShrinkwrap Finishing
+19 silly loadAllDepsIntoIdealTree Starting
+20 silly uninstall loadAllDepsIntoIdealtree
+21 silly loadAllDepsIntoIdealTree Finishing
+22 silly loadIdealTree Finishing
+23 silly currentTree lib
+24 silly idealTree lib
+25 silly generateActionsToTake Starting
+26 silly install generateActionsToTake
+27 silly generateActionsToTake Finishing
+28 silly diffTrees action count 0
+29 silly decomposeActions action count 0
+30 silly executeActions Starting
+31 silly install executeActions
+32 silly doSerial global-install 0
+33 silly doParallel fetch 0
+34 verbose correctMkdir /Users/wille/.npm/_locks correctMkdir not in flight; initializing
+35 verbose lock using /Users/wille/.npm/_locks/staging-3a08f0df5026584d.lock for /usr/local/lib/node_modules/.staging
+36 verbose unlock done using /Users/wille/.npm/_locks/staging-3a08f0df5026584d.lock for /usr/local/lib/node_modules/.staging
+37 silly rollbackFailedOptional Starting
+38 silly rollbackFailedOptional Finishing
+39 silly runTopLevelLifecycles Starting
+40 silly runTopLevelLifecycles Finishing
+41 silly install printInstalled
+42 verbose stack Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/.staging'
+42 verbose stack     at Error (native)
+43 verbose cwd /Users/wille/rainbows
+44 error Darwin 14.5.0
+45 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "rm" "-r" "colors"
+46 error node v6.7.0
+47 error npm  v3.10.3
+48 error path /usr/local/lib/node_modules/.staging
+49 error code EACCES
+50 error errno -13
+51 error syscall mkdir
+52 error Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/.staging'
+52 error     at Error (native)
+52 error  { Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/.staging'
+52 error     at Error (native)
+52 error   errno: -13,
+52 error   code: 'EACCES',
+52 error   syscall: 'mkdir',
+52 error   path: '/usr/local/lib/node_modules/.staging' }
+53 error Please try running this command again as root/Administrator.
+54 verbose exit [ -13, true ]

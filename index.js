@@ -1,13 +1,12 @@
-var colors = require('colors');
+var chalk = require('chalk');
 
 function makeRainbows(string) {
-  ['random', 'white', 'yellow', 'green', 'cyan', 'blue', 'red', 'magenta'].forEach(function(color) {
-    console.log(colors[color](string));
+  ['white', 'yellow', 'green', 'cyan', 'blue', 'red', 'magenta'].forEach(function(color) {
+    console.log(chalk[color](string));
   });
 
   // same as:
-  // console.log(colors.random(string));
-  // console.log(colors.white(string));
+  // console.log(colors.white(string));s
   // console.log(colors.yellow(string));
   // console.log(colors.green(string));
   // console.log(colors.cyan(string));
